@@ -1,0 +1,41 @@
+/* assets/css/modules/utilities.css */
+
+/* Animations */
+@keyframes timeline-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 68, 0, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 15px rgba(255, 68, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 68, 0, 0);
+    }
+}
+
+.timeline-point.active,
+.timeline-point:hover {
+    background-color: var(--accent-color);
+    animation: timeline-pulse 2s infinite;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+/* Helpers */
+.text-accent {
+    color: var(--accent-color);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+/* Visibility */
+.hide-mobile {
+    @media (max-width: 768px) {
+        display: none !important;
+    }
+}

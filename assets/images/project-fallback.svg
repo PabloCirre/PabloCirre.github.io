@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Project fallback hero">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="36" y="36" width="1128" height="603" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  <circle cx="1000" cy="130" r="180" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="960" cy="580" r="220" fill="rgba(255,255,255,0.06)"/>
+  <text x="72" y="126" font-family="IBM Plex Mono,Arial,sans-serif" font-size="30" fill="rgba(255,255,255,0.88)">PROJECTS</text>
+  <text x="72" y="388" font-family="Space Grotesk,Arial,sans-serif" font-size="86" font-weight="700" fill="#ffffff">Hero Pending</text>
+  <text x="72" y="454" font-family="IBM Plex Mono,Arial,sans-serif" font-size="28" fill="rgba(255,255,255,0.82)">Visual source unavailable</text>
+</svg>

@@ -1,0 +1,398 @@
+/**
+ * Mobile Navigation Styles
+ * Hamburger menu and responsive navigation
+ */
+
+/* Hamburger Button */
+.hamburger-btn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1001;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.hamburger-btn span {
+    display: block;
+    width: 26px;
+    height: 3px;
+    background: var(--text-color);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.hamburger-btn.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger-btn.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-btn.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Mobile Menu - Fullscreen with transparency */
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    /* Slightly more transparent */
+    backdrop-filter: blur(15px);
+    /* Stronger blur */
+    -webkit-backdrop-filter: blur(15px);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.mobile-menu.active {
+    opacity: 1;
+}
+
+.mobile-menu a {
+    display: block;
+    padding: 10px 40px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.8rem;
+    /* Larger touch targets */
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.mobile-menu.active a {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Staggered animation */
+.mobile-menu.active a:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.mobile-menu.active a:nth-child(2) {
+    transition-delay: 0.15s;
+}
+
+.mobile-menu.active a:nth-child(3) {
+    transition-delay: 0.2s;
+}
+
+.mobile-menu.active a:nth-child(4) {
+    transition-delay: 0.25s;
+}
+
+.mobile-menu.active a:nth-child(5) {
+    transition-delay: 0.3s;
+}
+
+.mobile-menu.active a:nth-child(6) {
+    transition-delay: 0.35s;
+}
+
+.mobile-menu.active a:nth-child(7) {
+    transition-delay: 0.4s;
+}
+
+.mobile-menu a:hover,
+.mobile-menu a.active {
+    color: var(--accent-color);
+    transform: scale(1.1) translateY(0);
+    text-shadow: 0 0 20px rgba(255, 68, 0, 0.5);
+}
+
+/* Theme Toggle Adjustments */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-color);
+    z-index: 100;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle svg {
+    width: 20px;
+    height: 20px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Show sun in dark mode, moon in light mode */
+.icon-sun {
+    display: block;
+}
+
+.icon-moon {
+    display: none;
+}
+
+[data-theme="light"] .icon-sun {
+    display: none;
+}
+
+[data-theme="light"] .icon-moon {
+    display: block;
+}
+
+.theme-toggle:hover svg {
+    transform: rotate(15deg);
+}
+
+/* Responsive - Show hamburger on tablet/mobile */
+@media (max-width: 900px) {
+    .hamburger-btn {
+        display: flex;
+    }
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    .main-header nav {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .hamburger-btn {
+        bottom: 20px;
+        right: 20px;
+        width: 55px;
+        height: 55px;
+    }
+
+    .mobile-menu a {
+        font-size: 1.3rem;
+        padding: 12px 30px;
+    }
+
+    .logo {
+        font-size: 1.4rem;
+    }
+}
+
+/* Mobile Navigation v2: grouped drawer with mega-menu content */
+.hamburger-btn {
+    top: 18px;
+    right: 20px;
+    bottom: auto;
+    width: 46px;
+    height: 46px;
+    z-index: 10060;
+    border-radius: 8px;
+    gap: 5px;
+    padding: 12px;
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.22);
+}
+
+.hamburger-btn span {
+    width: 21px;
+    height: 2px;
+}
+
+.mobile-menu {
+    inset: 0;
+    padding: 78px 16px 22px;
+    z-index: 10050;
+    background: rgba(0, 0, 0, 0.42);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    justify-content: flex-start;
+    align-items: stretch;
+    overflow-y: auto;
+}
+
+.mobile-menu.active {
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.mobile-menu__panel {
+    width: min(100%, 520px);
+    margin-left: auto;
+    background: var(--panel-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 28px 70px rgba(0, 0, 0, 0.32);
+    padding: 14px;
+}
+
+.mobile-menu .mobile-menu__home,
+.mobile-menu .mobile-menu__link,
+.mobile-menu .mobile-menu__primary,
+.mobile-menu .nav-dropdown-link,
+.mobile-menu .mega-card {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    color: var(--text-color);
+    text-decoration: none;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--bg-color);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 650;
+    line-height: 1.2;
+    text-align: left;
+    opacity: 1;
+    transform: none;
+    text-shadow: none;
+}
+
+.mobile-menu .mobile-menu__home,
+.mobile-menu .mobile-menu__link {
+    margin-bottom: 10px;
+}
+
+.mobile-menu .mobile-menu__home.active,
+.mobile-menu .mobile-menu__link.active,
+.mobile-menu .mobile-menu__primary.active,
+.mobile-menu .nav-dropdown-link.active,
+.mobile-menu .mega-card.active,
+.mobile-menu a:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    transform: none;
+    text-shadow: none;
+}
+
+.mobile-menu__group {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: color-mix(in srgb, var(--panel-bg) 88%, var(--bg-color));
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.mobile-menu__group summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 52px;
+    padding: 0 14px;
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 750;
+    list-style: none;
+}
+
+.mobile-menu__group summary::-webkit-details-marker {
+    display: none;
+}
+
+.mobile-menu__group summary::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+}
+
+.mobile-menu__group[open] summary::after {
+    transform: rotate(225deg);
+}
+
+.mobile-menu__group-body {
+    display: grid;
+    gap: 10px;
+    padding: 0 10px 10px;
+}
+
+.mobile-menu .mega-card {
+    min-height: 0;
+    box-shadow: none;
+}
+
+.mobile-menu .mega-card:hover {
+    box-shadow: none;
+}
+
+.mobile-menu .mega-card::after,
+.mobile-menu .nav-dropdown-link::after,
+.mobile-menu .language-switcher__link::after {
+    display: none;
+}
+
+.mobile-menu .mega-title {
+    font-size: 0.98rem;
+}
+
+.mobile-menu .mega-desc {
+    margin-top: 6px;
+    font-size: 0.84rem;
+}
+
+.mobile-menu .mega-metrics {
+    display: none;
+}
+
+.mobile-menu__language {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px 2px 0;
+}
+
+.mobile-menu-open {
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .hamburger-btn {
+        top: 14px;
+        right: 14px;
+        width: 44px;
+        height: 44px;
+    }
+
+    .mobile-menu {
+        padding: 68px 10px 16px;
+    }
+
+    .mobile-menu__panel {
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 1.35rem;
+    }
+}

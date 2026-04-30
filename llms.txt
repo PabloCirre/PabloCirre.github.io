@@ -1,0 +1,42 @@
+# Pablo Cirre - Developer Portfolio & Projects
+
+> Personal website of Pablo Cirre: web development, Big Data, OpenData products, training, interactive labs and professional project evidence.
+
+## Key Sections
+
+### Main
+- [Home](https://pablocirre.github.io/) - Overview of expertise in data, web products, training and digital interfaces.
+- [About Me](https://pablocirre.github.io/paginas/about-me/) - Biography, experience and public profile.
+- [Projects](https://pablocirre.github.io/paginas/projects/) - Portfolio of client work, data products and digital properties.
+- [Services](https://pablocirre.github.io/paginas/services/) - Professional services.
+- [Knowledge](https://pablocirre.github.io/paginas/knowledge/) - Technical and editorial knowledge hub.
+- [Docencia](https://pablocirre.github.io/paginas/docencia/) - Training and education activity.
+- [Interactividad](https://pablocirre.github.io/paginas/interactividad/) - Interactive and videogame-related work.
+- [Vocalware](https://pablocirre.github.io/vocalware/) - TTS and voice synthesis reference page.
+
+### OpenData
+- [OpenData Main](https://pablocirre.github.io/paginas/opendata/) - Business data and OpenData products.
+- [Central de Comunicacion](https://pablocirre.github.io/paginas/opendata/centraldecomunicacion/) - Spanish B2B data provider project.
+- [Companies Data](https://pablocirre.github.io/paginas/opendata/companiesdata/) - European business databases.
+- [UK Business](https://pablocirre.github.io/paginas/opendata/ukbusiness/) - UK business datasets.
+- [Enterprises API](https://pablocirre.github.io/paginas/opendata/enterprises/) - Unified enterprise data concept.
+
+### Tools
+- [Tools Index](https://pablocirre.github.io/paginas/tools/) - Utility tools and scripts.
+- [Kaiju Email Verifier](https://pablocirre.github.io/paginas/tools/kaijuemailverifier/) - Email verification tool.
+- [Kaiju Translator](https://pablocirre.github.io/paginas/tools/kaijutranslator/) - Translation utility.
+
+### Creative Labs
+- [Labs Index](https://pablocirre.es/labs/) - Interactive experiments and UI prototypes.
+
+## Machine-readable indexes
+- [Sitemap index](https://pablocirre.github.io/sitemap_index.xml)
+- [Primary sitemap](https://pablocirre.github.io/sitemap.xml)
+- [Project sitemap](https://pablocirre.github.io/sitemap_projects.xml)
+- [Docencia sitemap](https://pablocirre.github.io/sitemap_docencia.xml)
+- [OpenData sitemap](https://pablocirre.github.io/sitemap_opendata.xml)
+
+## Legal
+- [Legal Notice](https://pablocirre.github.io/paginas/legal/aviso-legal/)
+- [Privacy Policy](https://pablocirre.github.io/paginas/legal/privacidad/)
+- [Cookies](https://pablocirre.github.io/paginas/legal/cookies/)

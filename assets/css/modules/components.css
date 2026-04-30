@@ -1,0 +1,469 @@
+/* assets/css/modules/components.css */
+
+/* Buttons */
+.btn-primary,
+.btn-primary:visited {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--accent-color);
+    color: #fff !important;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    border: 1px solid var(--accent-color);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: transparent;
+    color: var(--accent-color) !important;
+}
+
+/* Data Panels (Scientific look) */
+.metrics-grid {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 120px;
+    background: var(--panel-bg);
+    padding: 60px var(--container-pad);
+    border: 2px solid var(--border-color);
+    box-shadow:
+        inset 0 0 40px rgba(0, 0, 0, 0.1),
+        0 40px 80px rgba(0, 0, 0, 0.3);
+}
+
+.data-panel {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    padding: 30px;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 240px;
+    box-shadow:
+        inset 2px 2px 5px rgba(255, 255, 255, 0.05),
+        inset -2px -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.data-panel:hover {
+    transform: translateY(-8px);
+    box-shadow:
+        inset 2px 2px 5px rgba(255, 255, 255, 0.1),
+        0 20px 40px rgba(0, 0, 0, 0.2);
+    border-color: var(--accent-color);
+}
+
+/* Scientific Elements */
+.panel-header {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-secondary);
+}
+
+.metric-value {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+/* Switch aesthetic - purely visual consistency */
+.switch-ui {
+    width: 20px;
+    height: 35px;
+    border: 1px solid var(--border-color);
+    position: relative;
+    background: var(--bg-color);
+}
+
+.switch-ui::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: var(--indicator-color);
+    top: 2px;
+    left: 2px;
+    box-shadow: 0 0 5px var(--indicator-color);
+}
+
+/* Project Cards */
+.projects-grid {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 120px;
+}
+
+.project-card {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    padding: 40px;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.05), inset -2px -2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-color);
+}
+
+.project-tag {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-family: monospace;
+    font-size: 0.75rem;
+    color: #fff;
+    background: var(--accent-color);
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+/* Mega Menu */
+.primary-nav {
+    position: relative;
+}
+
+.nav-item-dropdown {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-link--dropdown {
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.nav-link--dropdown:hover,
+.nav-link--dropdown.active {
+    background: color-mix(in srgb, var(--accent-color) 7%, transparent);
+    border-color: color-mix(in srgb, var(--accent-color) 28%, var(--border-color));
+}
+
+.nav-caret {
+    width: 7px;
+    height: 7px;
+    border-right: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: rotate(45deg) translateY(-2px);
+    transform-origin: center;
+    opacity: 0.8;
+}
+
+/* Invisible bridge to prevent closing on hover gap */
+.nav-item-dropdown::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+}
+
+.mega-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 14px);
+    right: 0;
+    transform: none;
+    width: min(88vw, 900px);
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+    padding: 18px;
+    z-index: 1000;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    opacity: 0;
+}
+
+.mega-menu--work {
+    width: min(88vw, 980px);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@keyframes megaFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.nav-item-dropdown:hover .mega-menu,
+.nav-item-dropdown:focus-within .mega-menu {
+    display: grid;
+    animation: megaFadeIn 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.mega-card {
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: flex;
+    flex-direction: column;
+    min-height: 146px;
+    box-shadow: inset 1px 1px 2px rgba(255, 255, 255, 0.05);
+    text-transform: none;
+    letter-spacing: 0;
+    align-items: stretch;
+}
+
+.main-header nav a.mega-card,
+.main-header nav a.nav-dropdown-link {
+    text-transform: none;
+    letter-spacing: 0;
+    line-height: 1.25;
+}
+
+.main-header nav .mega-menu .mega-title,
+.main-header nav .mega-menu .mega-kicker,
+.main-header nav .mega-menu .mega-desc,
+.main-header nav .mega-menu .mm-label,
+.main-header nav .mega-menu .mm-value,
+.main-header nav .nav-dropdown-menu .nav-dropdown-link {
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.mega-card:hover {
+    border-color: var(--accent-color);
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.mega-card.active {
+    border-color: var(--accent-color);
+    background: color-mix(in srgb, var(--accent-color) 8%, var(--bg-color));
+}
+
+.mega-card--compact {
+    min-height: 132px;
+}
+
+.mega-card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.mega-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1.15;
+}
+
+.mega-kicker {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.mega-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.45;
+}
+
+.mega-metrics {
+    display: flex;
+    gap: 10px;
+    margin-top: auto;
+    padding-top: 16px;
+}
+
+.mm-item {
+    flex: 1 1 0;
+    border-top: 1px solid var(--border-color);
+    padding-top: 8px;
+}
+
+.mm-label {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+}
+
+.mm-value {
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.82rem;
+    color: var(--text-color);
+    margin-top: 2px;
+}
+
+.nav-item-dropdown.menu-align-right::after {
+    left: auto;
+    right: 0;
+}
+
+.nav-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 14px);
+    right: 0;
+    min-width: 320px;
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.25), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+    padding: 12px;
+    z-index: 1000;
+    opacity: 0;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@keyframes dropdownFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.nav-item-dropdown:hover .nav-dropdown-menu,
+.nav-item-dropdown:focus-within .nav-dropdown-menu {
+    display: flex;
+    animation: dropdownFadeIn 0.24s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    opacity: 1;
+}
+
+.main-header nav .nav-dropdown-menu a::after {
+    display: none;
+}
+
+.nav-dropdown-link,
+.nav-dropdown-link:visited {
+    display: block;
+    width: 100%;
+    padding: 14px 16px;
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-color);
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.3;
+    transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+}
+
+.nav-dropdown-link:hover,
+.nav-dropdown-link:active,
+.nav-dropdown-link.active {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    background: rgba(255, 85, 51, 0.06);
+    transform: translateY(-1px);
+}
+
+/* FAQ Accordion */
+details.faq-item {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-color);
+    margin-bottom: 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    display: block;
+}
+
+details.faq-item[open] {
+    border-color: var(--accent-color);
+    background: var(--bg-color);
+}
+
+summary.faq-question {
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    list-style: none !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    outline: none;
+}
+
+summary.faq-question::-webkit-details-marker {
+    display: none !important;
+}
+
+summary.faq-question::after {
+    content: '+';
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    color: var(--accent-color);
+}
+
+details.faq-item[open] summary.faq-question::after {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    padding: 0 20px 20px 20px;
+    color: var(--text-color);
+    opacity: 0.9;
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .metrics-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mega-menu,
+    .nav-dropdown-menu {
+        display: none !important;
+    }
+}

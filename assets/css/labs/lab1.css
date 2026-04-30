@@ -1,0 +1,47 @@
+/* Musical Knobs - Interactive Audio Widget */
+body.lab-1 .knob-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+body.lab-1 .musical-knob {
+    width: 45px;
+    height: 45px;
+    background: #222;
+    border-radius: 50%;
+    border: 2px solid #000;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body.lab-1 .musical-knob:hover {
+    border-color: var(--accent-color);
+    transform: scale(1.05);
+}
+
+body.lab-1 .musical-knob.active {
+    transform: rotate(360deg) scale(1.1);
+    border-color: var(--indicator-color);
+    box-shadow: 0 0 15px var(--indicator-color);
+}
+
+body.lab-1 .knob-indicator {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 12px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+body.lab-1 .musical-knob:hover .knob-indicator {
+    background: var(--accent-color);
+}

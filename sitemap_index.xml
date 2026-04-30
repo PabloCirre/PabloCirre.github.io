@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://pablocirre.github.io/sitemap.xml</loc>
+        <lastmod>2026-04-24</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://pablocirre.github.io/sitemap_projects.xml</loc>
+        <lastmod>2026-04-29</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://pablocirre.github.io/sitemap_docencia.xml</loc>
+        <lastmod>2026-03-10</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://pablocirre.github.io/sitemap_opendata.xml</loc>
+        <lastmod>2026-03-10</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://pablocirre.github.io/sitemap_tools.xml</loc>
+        <lastmod>2026-04-29</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://pablocirre.github.io/sitemap_legal.xml</loc>
+        <lastmod>2026-03-10</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://pablocirre.github.io/sitemap_en.xml</loc>
+        <lastmod>2026-04-29</lastmod>
+    </sitemap>
+</sitemapindex>

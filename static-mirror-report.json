@@ -1,0 +1,1406 @@
+{
+  "base_url": "https://pablocirre.github.io",
+  "output_dir": "D:\\Pycharm\\PabloCirre.github.io",
+  "source_url_count": 152,
+  "copied": [
+    "assets",
+    "google64a9eb2298feecce.html",
+    "llms-full.txt",
+    "llms.txt",
+    "robots.txt",
+    "y84ksrzioy4v54orbq50vy4qxnq6wpi1.txt",
+    "sitemap_index.xml",
+    "sitemap.xml",
+    "sitemap_projects.xml",
+    "sitemap_docencia.xml",
+    "sitemap_opendata.xml",
+    "sitemap_tools.xml",
+    "sitemap_legal.xml",
+    "sitemap_en.xml",
+    ".nojekyll"
+  ],
+  "routes": [
+    {
+      "source_url": "https://pablocirre.es/",
+      "local_url": "http://127.0.0.1:55084/",
+      "static_path": "/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/vocalware/",
+      "local_url": "http://127.0.0.1:55084/vocalware/",
+      "static_path": "/vocalware/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\vocalware\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/about-me/",
+      "local_url": "http://127.0.0.1:55084/paginas/about-me/",
+      "static_path": "/paginas/about-me/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\about-me\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/",
+      "static_path": "/paginas/projects/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/services/",
+      "local_url": "http://127.0.0.1:55084/paginas/services/",
+      "static_path": "/paginas/services/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\services\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/knowledge/",
+      "local_url": "http://127.0.0.1:55084/paginas/knowledge/",
+      "static_path": "/paginas/knowledge/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\knowledge\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/interactividad/",
+      "local_url": "http://127.0.0.1:55084/paginas/interactividad/",
+      "static_path": "/paginas/interactividad/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\interactividad\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/contact/",
+      "local_url": "http://127.0.0.1:55084/paginas/contact/",
+      "static_path": "/paginas/contact/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\contact\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/docencia/",
+      "local_url": "http://127.0.0.1:55084/paginas/docencia/",
+      "static_path": "/paginas/docencia/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\docencia\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/about-me/experiencia-profesional/",
+      "local_url": "http://127.0.0.1:55084/paginas/about-me/experiencia-profesional/",
+      "static_path": "/paginas/about-me/experiencia-profesional/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\about-me\\experiencia-profesional\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/about-me/formacion-certificaciones/",
+      "local_url": "http://127.0.0.1:55084/paginas/about-me/formacion-certificaciones/",
+      "static_path": "/paginas/about-me/formacion-certificaciones/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\about-me\\formacion-certificaciones\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/about-me/premios-prensa/",
+      "local_url": "http://127.0.0.1:55084/paginas/about-me/premios-prensa/",
+      "static_path": "/paginas/about-me/premios-prensa/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\about-me\\premios-prensa\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/about-me/publicaciones-propiedad-intelectual/",
+      "local_url": "http://127.0.0.1:55084/paginas/about-me/publicaciones-propiedad-intelectual/",
+      "static_path": "/paginas/about-me/publicaciones-propiedad-intelectual/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\about-me\\publicaciones-propiedad-intelectual\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/about-me/acredita-2025/",
+      "local_url": "http://127.0.0.1:55084/paginas/about-me/acredita-2025/",
+      "static_path": "/paginas/about-me/acredita-2025/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\about-me\\acredita-2025\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/about-me/biblioteca-evidencias/",
+      "local_url": "http://127.0.0.1:55084/paginas/about-me/biblioteca-evidencias/",
+      "static_path": "/paginas/about-me/biblioteca-evidencias/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\about-me\\biblioteca-evidencias\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/opendata/",
+      "local_url": "http://127.0.0.1:55084/paginas/opendata/",
+      "static_path": "/paginas/opendata/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\opendata\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/tools/",
+      "local_url": "http://127.0.0.1:55084/paginas/tools/",
+      "static_path": "/paginas/tools/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\tools\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/sitemap/",
+      "local_url": "http://127.0.0.1:55084/paginas/sitemap/",
+      "static_path": "/paginas/sitemap/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\sitemap\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/avalonoposiciones/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/avalonoposiciones/",
+      "static_path": "/paginas/projects/avalonoposiciones/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\avalonoposiciones\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=clinicamefis",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=clinicamefis",
+      "static_path": "/paginas/projects/clinicamefis/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\clinicamefis\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/cruzapuentes/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/cruzapuentes/",
+      "static_path": "/paginas/projects/cruzapuentes/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\cruzapuentes\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/europubhealth/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/europubhealth/",
+      "static_path": "/paginas/projects/europubhealth/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\europubhealth\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/igualdadextremadura/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/igualdadextremadura/",
+      "static_path": "/paginas/projects/igualdadextremadura/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\igualdadextremadura\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/mapamediacion/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/mapamediacion/",
+      "static_path": "/paginas/projects/mapamediacion/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\mapamediacion\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=mirentax",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=mirentax",
+      "static_path": "/paginas/projects/mirentax/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\mirentax\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=rutaboadbil",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=rutaboadbil",
+      "static_path": "/paginas/projects/rutaboadbil/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\rutaboadbil\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=bigdatalowcost",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=bigdatalowcost",
+      "static_path": "/paginas/projects/bigdatalowcost/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\bigdatalowcost\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=central",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=central",
+      "static_path": "/paginas/projects/central/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\central\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/centraldecomunicacion/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/centraldecomunicacion/",
+      "static_path": "/paginas/projects/centraldecomunicacion/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\centraldecomunicacion\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=centraldata",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=centraldata",
+      "static_path": "/paginas/projects/centraldata/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\centraldata\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=centralhub",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=centralhub",
+      "static_path": "/paginas/projects/centralhub/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\centralhub\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=companiesdata",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=companiesdata",
+      "static_path": "/paginas/projects/companiesdata/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\companiesdata\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=superdatacloud",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=superdatacloud",
+      "static_path": "/paginas/projects/superdatacloud/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\superdatacloud\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=ukbusinessdatabases",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=ukbusinessdatabases",
+      "static_path": "/paginas/projects/ukbusinessdatabases/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\ukbusinessdatabases\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=abrirfranquicias",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=abrirfranquicias",
+      "static_path": "/paginas/projects/abrirfranquicias/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\abrirfranquicias\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/asesoriadigital/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/asesoriadigital/",
+      "static_path": "/paginas/projects/asesoriadigital/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\asesoriadigital\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/dehesadebular/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/dehesadebular/",
+      "static_path": "/paginas/projects/dehesadebular/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\dehesadebular\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/deportenutricion/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/deportenutricion/",
+      "static_path": "/paginas/projects/deportenutricion/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\deportenutricion\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/granadasmile/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/granadasmile/",
+      "static_path": "/paginas/projects/granadasmile/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\granadasmile\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=hablandodebelleza",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=hablandodebelleza",
+      "static_path": "/paginas/projects/hablandodebelleza/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\hablandodebelleza\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=horoscopochino",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=horoscopochino",
+      "static_path": "/paginas/projects/horoscopochino/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\horoscopochino\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/lacomandarural/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/lacomandarural/",
+      "static_path": "/paginas/projects/lacomandarural/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\lacomandarural\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/plantabaja/",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/plantabaja/",
+      "static_path": "/paginas/projects/plantabaja/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\plantabaja\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=superventas",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=superventas",
+      "static_path": "/paginas/projects/superventas/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\superventas\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=adsmanager",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=adsmanager",
+      "static_path": "/paginas/projects/adsmanager/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\adsmanager\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=capitalgrx",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=capitalgrx",
+      "static_path": "/paginas/projects/capitalgrx/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\capitalgrx\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=genera",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=genera",
+      "static_path": "/paginas/projects/genera/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\genera\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=kaijuconverter",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=kaijuconverter",
+      "static_path": "/paginas/projects/kaijuconverter/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\kaijuconverter\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=kaijuverifier",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=kaijuverifier",
+      "static_path": "/paginas/projects/kaijuverifier/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\kaijuverifier\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=legia",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=legia",
+      "static_path": "/paginas/projects/legia/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\legia\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=licitabot",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=licitabot",
+      "static_path": "/paginas/projects/licitabot/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\licitabot\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=openborme",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=openborme",
+      "static_path": "/paginas/projects/openborme/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\openborme\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=pablocirre",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=pablocirre",
+      "static_path": "/paginas/projects/pablocirre/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\pablocirre\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=pibot",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=pibot",
+      "static_path": "/paginas/projects/pibot/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\pibot\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=postalcodes",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=postalcodes",
+      "static_path": "/paginas/projects/postalcodes/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\postalcodes\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=supercarrier",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=supercarrier",
+      "static_path": "/paginas/projects/supercarrier/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\supercarrier\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=vernegames",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=vernegames",
+      "static_path": "/paginas/projects/vernegames/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\vernegames\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=victoria",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=victoria",
+      "static_path": "/paginas/projects/victoria/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\victoria\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=wagenfinder-src",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=wagenfinder-src",
+      "static_path": "/paginas/projects/wagenfinder-src/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\wagenfinder-src\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/projects/project.php?slug=wagenfinder",
+      "local_url": "http://127.0.0.1:55084/paginas/projects/project.php?slug=wagenfinder",
+      "static_path": "/paginas/projects/wagenfinder/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\projects\\wagenfinder\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/docencia/curso-antigravity-ia/",
+      "local_url": "http://127.0.0.1:55084/paginas/docencia/curso-antigravity-ia/",
+      "static_path": "/paginas/docencia/curso-antigravity-ia/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\docencia\\curso-antigravity-ia\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/docencia/curso-business-intelligence/",
+      "local_url": "http://127.0.0.1:55084/paginas/docencia/curso-business-intelligence/",
+      "static_path": "/paginas/docencia/curso-business-intelligence/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\docencia\\curso-business-intelligence\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/docencia/curso-email-marketing/",
+      "local_url": "http://127.0.0.1:55084/paginas/docencia/curso-email-marketing/",
+      "static_path": "/paginas/docencia/curso-email-marketing/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\docencia\\curso-email-marketing\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/docencia/curso-seo-semrush/",
+      "local_url": "http://127.0.0.1:55084/paginas/docencia/curso-seo-semrush/",
+      "static_path": "/paginas/docencia/curso-seo-semrush/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\docencia\\curso-seo-semrush\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/docencia/curso-unity-vr-arquitectura-industria/",
+      "local_url": "http://127.0.0.1:55084/paginas/docencia/curso-unity-vr-arquitectura-industria/",
+      "static_path": "/paginas/docencia/curso-unity-vr-arquitectura-industria/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\docencia\\curso-unity-vr-arquitectura-industria\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/docencia/curso-woocommerce/",
+      "local_url": "http://127.0.0.1:55084/paginas/docencia/curso-woocommerce/",
+      "static_path": "/paginas/docencia/curso-woocommerce/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\docencia\\curso-woocommerce\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/docencia/curso-wordpress/",
+      "local_url": "http://127.0.0.1:55084/paginas/docencia/curso-wordpress/",
+      "static_path": "/paginas/docencia/curso-wordpress/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\docencia\\curso-wordpress\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/opendata/centraldecomunicacion/",
+      "local_url": "http://127.0.0.1:55084/paginas/opendata/centraldecomunicacion/",
+      "static_path": "/paginas/opendata/centraldecomunicacion/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\opendata\\centraldecomunicacion\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/opendata/companiesdata/",
+      "local_url": "http://127.0.0.1:55084/paginas/opendata/companiesdata/",
+      "static_path": "/paginas/opendata/companiesdata/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\opendata\\companiesdata\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/opendata/ukbusiness/",
+      "local_url": "http://127.0.0.1:55084/paginas/opendata/ukbusiness/",
+      "static_path": "/paginas/opendata/ukbusiness/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\opendata\\ukbusiness\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/opendata/enterprises/",
+      "local_url": "http://127.0.0.1:55084/paginas/opendata/enterprises/",
+      "static_path": "/paginas/opendata/enterprises/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\opendata\\enterprises\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/tools/kaijuemailverifier/",
+      "local_url": "http://127.0.0.1:55084/paginas/tools/kaijuemailverifier/",
+      "static_path": "/paginas/tools/kaijuemailverifier/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\tools\\kaijuemailverifier\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/tools/kaijutranslator/",
+      "local_url": "http://127.0.0.1:55084/paginas/tools/kaijutranslator/",
+      "static_path": "/paginas/tools/kaijutranslator/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\tools\\kaijutranslator\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/legal/aviso-legal.php",
+      "local_url": "http://127.0.0.1:55084/paginas/legal/aviso-legal.php",
+      "static_path": "/paginas/legal/aviso-legal/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\legal\\aviso-legal\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/legal/privacidad.php",
+      "local_url": "http://127.0.0.1:55084/paginas/legal/privacidad.php",
+      "static_path": "/paginas/legal/privacidad/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\legal\\privacidad\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/paginas/legal/cookies.php",
+      "local_url": "http://127.0.0.1:55084/paginas/legal/cookies.php",
+      "static_path": "/paginas/legal/cookies/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\paginas\\legal\\cookies\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/",
+      "local_url": "http://127.0.0.1:55084/en/",
+      "static_path": "/en/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/about-me/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/about-me/",
+      "static_path": "/en/paginas/about-me/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\about-me\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/about-me/acredita-2025/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/about-me/acredita-2025/",
+      "static_path": "/en/paginas/about-me/acredita-2025/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\about-me\\acredita-2025\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/about-me/biblioteca-evidencias/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/about-me/biblioteca-evidencias/",
+      "static_path": "/en/paginas/about-me/biblioteca-evidencias/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\about-me\\biblioteca-evidencias\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/about-me/experiencia-profesional/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/about-me/experiencia-profesional/",
+      "static_path": "/en/paginas/about-me/experiencia-profesional/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\about-me\\experiencia-profesional\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/about-me/formacion-certificaciones/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/about-me/formacion-certificaciones/",
+      "static_path": "/en/paginas/about-me/formacion-certificaciones/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\about-me\\formacion-certificaciones\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/about-me/premios-prensa/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/about-me/premios-prensa/",
+      "static_path": "/en/paginas/about-me/premios-prensa/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\about-me\\premios-prensa\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/about-me/publicaciones-propiedad-intelectual/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/about-me/publicaciones-propiedad-intelectual/",
+      "static_path": "/en/paginas/about-me/publicaciones-propiedad-intelectual/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\about-me\\publicaciones-propiedad-intelectual\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/contact/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/contact/",
+      "static_path": "/en/paginas/contact/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\contact\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/docencia/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/docencia/",
+      "static_path": "/en/paginas/docencia/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\docencia\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/docencia/curso-antigravity-ia/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/docencia/curso-antigravity-ia/",
+      "static_path": "/en/paginas/docencia/curso-antigravity-ia/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\docencia\\curso-antigravity-ia\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/docencia/curso-business-intelligence/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/docencia/curso-business-intelligence/",
+      "static_path": "/en/paginas/docencia/curso-business-intelligence/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\docencia\\curso-business-intelligence\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/docencia/curso-email-marketing/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/docencia/curso-email-marketing/",
+      "static_path": "/en/paginas/docencia/curso-email-marketing/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\docencia\\curso-email-marketing\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/docencia/curso-seo-semrush/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/docencia/curso-seo-semrush/",
+      "static_path": "/en/paginas/docencia/curso-seo-semrush/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\docencia\\curso-seo-semrush\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/docencia/curso-unity-vr-arquitectura-industria/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/docencia/curso-unity-vr-arquitectura-industria/",
+      "static_path": "/en/paginas/docencia/curso-unity-vr-arquitectura-industria/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\docencia\\curso-unity-vr-arquitectura-industria\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/docencia/curso-woocommerce/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/docencia/curso-woocommerce/",
+      "static_path": "/en/paginas/docencia/curso-woocommerce/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\docencia\\curso-woocommerce\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/docencia/curso-wordpress/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/docencia/curso-wordpress/",
+      "static_path": "/en/paginas/docencia/curso-wordpress/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\docencia\\curso-wordpress\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/interactividad/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/interactividad/",
+      "static_path": "/en/paginas/interactividad/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\interactividad\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/knowledge/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/knowledge/",
+      "static_path": "/en/paginas/knowledge/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\knowledge\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/legal/aviso-legal.php",
+      "local_url": "http://127.0.0.1:55084/en/paginas/legal/aviso-legal.php",
+      "static_path": "/en/paginas/legal/aviso-legal/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\legal\\aviso-legal\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/legal/cookies.php",
+      "local_url": "http://127.0.0.1:55084/en/paginas/legal/cookies.php",
+      "static_path": "/en/paginas/legal/cookies/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\legal\\cookies\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/legal/privacidad.php",
+      "local_url": "http://127.0.0.1:55084/en/paginas/legal/privacidad.php",
+      "static_path": "/en/paginas/legal/privacidad/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\legal\\privacidad\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/opendata/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/opendata/",
+      "static_path": "/en/paginas/opendata/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\opendata\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/opendata/centraldecomunicacion/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/opendata/centraldecomunicacion/",
+      "static_path": "/en/paginas/opendata/centraldecomunicacion/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\opendata\\centraldecomunicacion\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/opendata/companiesdata/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/opendata/companiesdata/",
+      "static_path": "/en/paginas/opendata/companiesdata/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\opendata\\companiesdata\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/opendata/enterprises/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/opendata/enterprises/",
+      "static_path": "/en/paginas/opendata/enterprises/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\opendata\\enterprises\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/opendata/ukbusiness/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/opendata/ukbusiness/",
+      "static_path": "/en/paginas/opendata/ukbusiness/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\opendata\\ukbusiness\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/",
+      "static_path": "/en/paginas/projects/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/asesoriadigital/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/asesoriadigital/",
+      "static_path": "/en/paginas/projects/asesoriadigital/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\asesoriadigital\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/avalonoposiciones/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/avalonoposiciones/",
+      "static_path": "/en/paginas/projects/avalonoposiciones/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\avalonoposiciones\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/centraldecomunicacion/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/centraldecomunicacion/",
+      "static_path": "/en/paginas/projects/centraldecomunicacion/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\centraldecomunicacion\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/cruzapuentes/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/cruzapuentes/",
+      "static_path": "/en/paginas/projects/cruzapuentes/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\cruzapuentes\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/dehesadebular/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/dehesadebular/",
+      "static_path": "/en/paginas/projects/dehesadebular/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\dehesadebular\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/deportenutricion/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/deportenutricion/",
+      "static_path": "/en/paginas/projects/deportenutricion/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\deportenutricion\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/europubhealth/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/europubhealth/",
+      "static_path": "/en/paginas/projects/europubhealth/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\europubhealth\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/granadasmile/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/granadasmile/",
+      "static_path": "/en/paginas/projects/granadasmile/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\granadasmile\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/igualdadextremadura/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/igualdadextremadura/",
+      "static_path": "/en/paginas/projects/igualdadextremadura/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\igualdadextremadura\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/lacomandarural/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/lacomandarural/",
+      "static_path": "/en/paginas/projects/lacomandarural/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\lacomandarural\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/mapamediacion/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/mapamediacion/",
+      "static_path": "/en/paginas/projects/mapamediacion/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\mapamediacion\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/plantabaja/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/plantabaja/",
+      "static_path": "/en/paginas/projects/plantabaja/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\plantabaja\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=abrirfranquicias",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=abrirfranquicias",
+      "static_path": "/en/paginas/projects/abrirfranquicias/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\abrirfranquicias\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=adsmanager",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=adsmanager",
+      "static_path": "/en/paginas/projects/adsmanager/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\adsmanager\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=bigdatalowcost",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=bigdatalowcost",
+      "static_path": "/en/paginas/projects/bigdatalowcost/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\bigdatalowcost\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=capitalgrx",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=capitalgrx",
+      "static_path": "/en/paginas/projects/capitalgrx/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\capitalgrx\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=central",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=central",
+      "static_path": "/en/paginas/projects/central/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\central\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=centraldata",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=centraldata",
+      "static_path": "/en/paginas/projects/centraldata/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\centraldata\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=centralhub",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=centralhub",
+      "static_path": "/en/paginas/projects/centralhub/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\centralhub\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=clinicamefis",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=clinicamefis",
+      "static_path": "/en/paginas/projects/clinicamefis/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\clinicamefis\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=companiesdata",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=companiesdata",
+      "static_path": "/en/paginas/projects/companiesdata/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\companiesdata\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=genera",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=genera",
+      "static_path": "/en/paginas/projects/genera/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\genera\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=hablandodebelleza",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=hablandodebelleza",
+      "static_path": "/en/paginas/projects/hablandodebelleza/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\hablandodebelleza\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=horoscopochino",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=horoscopochino",
+      "static_path": "/en/paginas/projects/horoscopochino/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\horoscopochino\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=kaijuconverter",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=kaijuconverter",
+      "static_path": "/en/paginas/projects/kaijuconverter/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\kaijuconverter\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=kaijuverifier",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=kaijuverifier",
+      "static_path": "/en/paginas/projects/kaijuverifier/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\kaijuverifier\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=legia",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=legia",
+      "static_path": "/en/paginas/projects/legia/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\legia\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=licitabot",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=licitabot",
+      "static_path": "/en/paginas/projects/licitabot/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\licitabot\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=mirentax",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=mirentax",
+      "static_path": "/en/paginas/projects/mirentax/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\mirentax\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=openborme",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=openborme",
+      "static_path": "/en/paginas/projects/openborme/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\openborme\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=pablocirre",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=pablocirre",
+      "static_path": "/en/paginas/projects/pablocirre/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\pablocirre\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=pibot",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=pibot",
+      "static_path": "/en/paginas/projects/pibot/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\pibot\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=postalcodes",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=postalcodes",
+      "static_path": "/en/paginas/projects/postalcodes/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\postalcodes\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=rutaboadbil",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=rutaboadbil",
+      "static_path": "/en/paginas/projects/rutaboadbil/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\rutaboadbil\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=supercarrier",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=supercarrier",
+      "static_path": "/en/paginas/projects/supercarrier/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\supercarrier\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=superdatacloud",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=superdatacloud",
+      "static_path": "/en/paginas/projects/superdatacloud/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\superdatacloud\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=superventas",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=superventas",
+      "static_path": "/en/paginas/projects/superventas/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\superventas\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=ukbusinessdatabases",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=ukbusinessdatabases",
+      "static_path": "/en/paginas/projects/ukbusinessdatabases/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\ukbusinessdatabases\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=vernegames",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=vernegames",
+      "static_path": "/en/paginas/projects/vernegames/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\vernegames\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=victoria",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=victoria",
+      "static_path": "/en/paginas/projects/victoria/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\victoria\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=wagenfinder",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=wagenfinder",
+      "static_path": "/en/paginas/projects/wagenfinder/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\wagenfinder\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/projects/project.php?slug=wagenfinder-src",
+      "local_url": "http://127.0.0.1:55084/en/paginas/projects/project.php?slug=wagenfinder-src",
+      "static_path": "/en/paginas/projects/wagenfinder-src/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\projects\\wagenfinder-src\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/services/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/services/",
+      "static_path": "/en/paginas/services/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\services\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/sitemap/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/sitemap/",
+      "static_path": "/en/paginas/sitemap/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\sitemap\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/tools/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/tools/",
+      "static_path": "/en/paginas/tools/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\tools\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/tools/kaijuemailverifier/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/tools/kaijuemailverifier/",
+      "static_path": "/en/paginas/tools/kaijuemailverifier/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\tools\\kaijuemailverifier\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/paginas/tools/kaijutranslator/",
+      "local_url": "http://127.0.0.1:55084/en/paginas/tools/kaijutranslator/",
+      "static_path": "/en/paginas/tools/kaijutranslator/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\paginas\\tools\\kaijutranslator\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "source_url": "https://pablocirre.es/en/vocalware/",
+      "local_url": "http://127.0.0.1:55084/en/vocalware/",
+      "static_path": "/en/vocalware/",
+      "output_file": "D:\\Pycharm\\PabloCirre.github.io\\en\\vocalware\\index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    }
+  ],
+  "not_found": {
+    "status": 404,
+    "content_type": "text/html; charset=utf-8",
+    "ok": true
+  },
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "Generic death-related words exist in source content, but not personal memorial markers: assets\\js\\main.js, en\\paginas\\about-me\\premios-prensa\\index.html, en\\paginas\\docencia\\curso-unity-vr-arquitectura-industria\\index.html, en\\paginas\\interactividad\\index.html, paginas\\about-me\\premios-prensa\\index.html, paginas\\docencia\\curso-unity-vr-arquitectura-industria\\index.html, paginas\\interactividad\\index.html"
+    ],
+    "expected_route_count": 152,
+    "generated_html_count": 152
+  }
+}

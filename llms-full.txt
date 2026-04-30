@@ -1,0 +1,30 @@
+# Pablo Cirre - Full LLM Context
+
+> Extended context for AI assistants and search systems that need a compact map of the public website.
+
+## Site purpose
+PabloCirre.es is a personal and professional portfolio for web development, Big Data, OpenData products, education, digital tools and interactive projects. The site prioritizes canonical public URLs under `https://pablocirre.github.io/`,/ lowercase public paths and segmented XML sitemaps.
+
+## Priority public URLs
+- `https://pablocirre.github.io/`/
+- `https://pablocirre.github.io/vocalware/`/
+- `https://pablocirre.github.io/paginas/about-me/`/
+- `https://pablocirre.github.io/paginas/projects/`/
+- `https://pablocirre.github.io/paginas/services/`/
+- `https://pablocirre.github.io/paginas/knowledge/`/
+- `https://pablocirre.github.io/paginas/docencia/`/
+- `https://pablocirre.github.io/paginas/opendata/`/
+- `https://pablocirre.github.io/paginas/tools/`/
+- `https://pablocirre.github.io/paginas/interactividad/`/
+
+## Project clusters
+- Client projects: `https://pablocirre.github.io/paginas/projects/
+- Data projects: `https://pablocirre.github.io/paginas/projects/
+- Startup projects: `https://pablocirre.github.io/paginas/projects/
+- Institutional projects: `https://pablocirre.github.io/paginas/projects/
+- Education projects: `https://pablocirre.github.io/paginas/projects/
+
+## Indexing signals
+- Canonical sitemap: `https://pablocirre.github.io/sitemap_index.xml`
+- Robots policy allows normal search indexing and blocks selected AI training crawlers.
+- Experimental labs can be linked for demonstration, but the primary indexation targets are the main public pages, project pages, docencia pages, OpenData pages and tools.

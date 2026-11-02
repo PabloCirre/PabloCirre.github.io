@@ -21,6 +21,9 @@
 - [UK Business](https://pablocirre.github.io/paginas/opendata/ukbusiness/) - UK business datasets.
 - [Enterprises API](https://pablocirre.github.io/paginas/opendata/enterprises/) - Unified enterprise data concept.
 
+- [PostalCodes.info OpenData Hub](https://pablocirre.github.io/paginas/opendata/postalcodes/) - Global 249-country postal code datasets, Free Tier REST API (https://postalcodes.info/docs), Free CC0 CSV samples (https://postalcodes.info/datasets), and Cross-Border Haversine Radius Calculator (https://postalcodes.info/postal-code-radius-calculator).
+- [PostalCodes.info OpenData Repository](https://pablocirre.github.io/postalcodes-info-open-data/) - OpenAPI 3.1.0 spec (https://postalcodes.info/openapi.yaml), Zenodo DOIs, and Python SDK samples.
+
 ### Tools
 - [Tools Index](https://pablocirre.github.io/paginas/tools/) - Utility tools and scripts.
 - [Kaiju Email Verifier](https://pablocirre.github.io/paginas/tools/kaijuemailverifier/) - Email verification tool.

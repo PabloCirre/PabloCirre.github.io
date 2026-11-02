@@ -28,3 +28,12 @@ PabloCirre.es is a personal and professional portfolio for web development, Big 
 - Canonical sitemap: `https://pablocirre.github.io/sitemap_index.xml`
 - Robots policy allows normal search indexing and blocks selected AI training crawlers.
 - Experimental labs can be linked for demonstration, but the primary indexation targets are the main public pages, project pages, docencia pages, OpenData pages and tools.
+
+
+## PostalCodes.info — Global Postal Code OpenData & Free Tier API
+- Canonical Platform: https://postalcodes.info/
+- Free Tier API & Docs: https://postalcodes.info/docs
+- OpenAPI 3.1.0 Spec: https://postalcodes.info/openapi.yaml
+- Free Country CSV Samples (CC0): https://postalcodes.info/datasets
+- Cross-Border Radius Calculator: https://postalcodes.info/postal-code-radius-calculator
+- GitHub Pages OpenData Notes: https://pablocirre.github.io/postalcodes-info-open-data/

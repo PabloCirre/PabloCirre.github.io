@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Datos Abiertos de Educación en España (2026/2027): PAU, Universidades RUCT y Becas</title>
+  <meta name="description" content="Portal técnico de datos abiertos sobre notas de corte PAU en 17 comunidades autónomas, precios ECTS de las 91 universidades RUCT, simuladores de becas MEC/Equitat/Ikasleak y convalidaciones FP." />
+  <link rel="canonical" href="https://pablocirre.github.io/paginas/opendata/educacion-espana/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Dataset Abierto del Sistema Universitario y de FP en España (2026/2027)",
+    "description": "Precios públicos por crédito ECTS en las 17 comunidades autónomas, referencias de notas de corte PAU, parámetros de ponderación, catálogo RUCT de 91 universidades y umbrales BOE de becas.",
+    "url": "https://pablocirre.github.io/paginas/opendata/educacion-espana/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "inLanguage": "es-ES",
+    "creator": {
+      "@type": "Person",
+      "name": "Pablo Cirre Gómez",
+      "url": "https://pablocirre.es/"
+    },
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://rnec.es/downloads/rnec-2026-open-data.json"
+      }
+    ]
+  }
+  </script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #0f172a; background: #f8fafc; margin: 0; line-height: 1.65; }
+    header { background: #0f2342; color: #fff; padding: 36px 20px; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 24px 20px; }
+    h1 { margin: 0 0 10px; font-size: 28px; line-height: 1.25; }
+    h2 { color: #0f3d75; margin-top: 30px; font-size: 21px; border-bottom: 2px solid #e2e8f0; padding-bottom: 6px; }
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin: 18px 0; }
+    .card { background: #fff; border: 1px solid #cbd5e1; border-radius: 10px; padding: 16px; }
+    .card a { color: #1d4ed8; font-weight: 700; text-decoration: underline; }
+    table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #cbd5e1; margin: 16px 0; font-size: 14px; }
+    th, td { border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left; }
+    th { background: #f1f5f9; color: #0f172a; font-weight: 700; }
+    footer { margin-top: 40px; padding: 20px; border-top: 1px solid #cbd5e1; font-size: 13px; color: #475569; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap" style="padding:0;">
+      <p style="margin:0 0 6px;font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:#93c5fd;font-weight:700;">Repositorio Técnico Open Data · España 2026/2027</p>
+      <h1>Datos Abiertos del Sistema Universitario, Notas de Corte PAU y Becas en España</h1>
+      <p style="margin:0;color:#e2e8f0;">Especificación técnica, precios ECTS por Comunidad Autónoma, parámetros de ponderación (RD 534/2024) y pasarelas oficiales de Formación Profesional (RD 659/2023 y RD 1085/2020).</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <h2>1. Calculadoras Públicas y Referencias por Intención de Búsqueda</h2>
+    <p>Este índice agrupa los recursos abiertos y herramientas de cálculo verificadas para estudiantes, familias, orientadores de secundaria e investigadores que trabajan con datos oficiales del BOE, RUCT y SIIU:</p>
+    <div class="card-grid">
+      <div class="card">
+        <a href="https://rnec.es/ponderaciones-selectividad-pau-andalucia-madrid-cataluna-ccaa/">Ponderaciones Selectividad PAU 2026/27 por CCAA (0,2 y 0,1)</a>
+        <p style="margin:8px 0 0;font-size:13.5px;color:#334155;">Compara cómo puntúan Matemáticas II, Biología, Química, Física o Filosofía entre Andalucía, Madrid, Cataluña, C. Valenciana y Galicia.</p>
+      </div>
+      <div class="card">
+        <a href="https://rnec.es/simulador-convalidaciones-fp-asignaturas-modulos-grado-superior/">Simulador oficial de convalidaciones de FP (FOL a IPE, Inglés y módulos)</a>
+        <p style="margin:8px 0 0;font-size:13.5px;color:#334155;">Criterios del Real Decreto 1085/2020 entre títulos LOGSE, LOE, Ley Orgánica 3/2022, Acredita y Grado Universitario.</p>
+      </div>
+      <div class="card">
+        <a href="https://rnec.es/beca-gobierno-vasco-y-equitat-cataluna-requisitos-cuantias-plazos/">Beca Gobierno Vasco (Ikasleak) y Beca Equitat Cataluña (AGAUR)</a>
+        <p style="margin:8px 0 0;font-size:13.5px;color:#334155;">Simulador dual de cuantías en Euskadi y tramos de descuento del 30 % al 80 % en universidades públicas catalanas.</p>
+      </div>
+      <div class="card">
+        <a href="https://rnec.es/unir-vs-uoc-vs-viu-vs-udima-precios-opiniones-universidades-online/">Comparativa UNIR vs UOC vs VIU vs UDIMA (Precios ECTS y Opiniones RUCT)</a>
+        <p style="margin:8px 0 0;font-size:13.5px;color:#334155;">Análisis de tasas por crédito ECTS, exámenes con proctoring vs evaluación continua y comparación frente a la UNED.</p>
+      </div>
+      <div class="card">
+        <a href="https://rnec.es/precios-opiniones-ilerna-medac-universae-ceac-cesur-fp-online/">Precios reales y opiniones de FP Online en España frente a la red pública</a>
+        <p style="margin:8px 0 0;font-size:13.5px;color:#334155;">Calculadora de coste completo a dos años incluyendo tasas de examen y prácticas FCT.</p>
+      </div>
+      <div class="card">
+        <a href="https://rnec.es/master/">Directorio de Másteres Oficiales Universitarios RUCT y Habilitantes</a>
+        <p style="margin:8px 0 0;font-size:13.5px;color:#334155;">Fichas verificadas de Profesorado (MAES), Psicología General Sanitaria, Abogacía, PRL, Ciberseguridad y MBA oficial.</p>
+      </div>
+    </div>
+
+    <h2>2. Matriz Comparativa de Tasas Universitarias Públicas por Distrito Único</h2>
+    <table>
+      <caption>Precios oficiales orientativos de primera matrícula de Grado y esquemas autonómicos vigentes (curso 2026/2027)</caption>
+      <thead>
+        <tr><th>Comunidad Autónoma</th><th>Precio 1.ª Matrícula (€/ECTS)</th><th>Mecanismo Autonómico Destacado</th><th>Observatorio Regional</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Andalucía</td><td>12,62 €/ECTS (~757 €/año)</td><td>Bonificación del 99 % de créditos aprobados y Beca 6000 en Bachillerato/CFGM</td><td><a href="https://rnec.es/notas-de-corte/andalucia/">Notas de corte Andalucía (DUA)</a></td></tr>
+        <tr><td>Comunidad de Madrid</td><td>18,92 – 25,65 €/ECTS</td><td>Ponderación 0,2 en Matemáticas II / Física para Medicina en UAM y URJC</td><td><a href="https://rnec.es/notas-de-corte/madrid/">Notas de corte Madrid</a></td></tr>
+        <tr><td>Cataluña</td><td>17,69 – 18,46 €/ECTS</td><td>Tramos Equitat AGAUR (30 % – 80 % descuento) y prueba PAP en Educación</td><td><a href="https://rnec.es/notas-de-corte/cataluna/">Notas de corte Cataluña</a></td></tr>
+        <tr><td>Galicia</td><td>11,95 – 13,93 €/ECTS</td><td>Primera matrícula gratuita en el Sistema Universitario de Galicia cumpliendo requisitos</td><td><a href="https://rnec.es/notas-de-corte/galicia/">Notas de corte Galicia</a></td></tr>
+        <tr><td>Comunitat Valenciana</td><td>12,79 – 18,08 €/ECTS</td><td>Reducción progresiva de precios públicos en las 5 públicas (UV, UPV, UA, UJI, UMH)</td><td><a href="https://rnec.es/notas-de-corte/valencia/">Notas de corte C. Valenciana</a></td></tr>
+      </tbody>
+    </table>
+
+    <h2>3. Repositorios Fuente y Paquetes Descargables (Licencia Abierta)</h2>
+    <ul>
+      <li>Código fuente Go y especificación MIT: <a href="https://github.com/PabloCirre/spain-education-open-data-2026">github.com/PabloCirre/spain-education-open-data-2026</a></li>
+      <li>Dataset consolidado en formato JSON abierto (CC BY 4.0): <a href="https://rnec.es/downloads/rnec-2026-open-data.json">rnec-2026-open-data.json</a></li>
+      <li>Documentación completa del portal matriz: <a href="https://rnec.es/">RNEC · Red Nacional de Estudios y Cursos</a></li>
+    </ul>
+    <footer>
+      Publicado por Pablo Cirre Gómez · Licencia abierta CC BY 4.0 / MIT · Índice técnico <a href="https://pablocirre.github.io/">pablocirre.github.io</a>.
+    </footer>
+  </main>
+</body>
+</html>

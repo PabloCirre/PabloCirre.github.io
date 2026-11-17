@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <title>Open Company Data Standard v1.1 (21 Countries, 8,112,307 Entities) — Central.Enterprises</title>
+  <meta name="description" content="Technical reference and 21-country benchmark for the Central.Enterprises Open Company Data Standard v1.1 (CC0 1.0): 8,112,307 legal entities, 5,793,321 domains, and live CSV/XLSX registries.">
+  <link rel="canonical" href="https://pablocirre.github.io/en/paginas/opendata/central-enterprises/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Open Company Data Standard v1.1 — 21-Country Corporate Registry Corpus">
+  <meta property="og:url" content="https://pablocirre.github.io/en/paginas/opendata/central-enterprises/">
+  <meta property="og:image" content="https://central.enterprises/assets/og-image.jpg">
+  <script type="application/ld+json">[{"@context":"https://schema.org","@type":"TechArticle","headline":"Open Company Data Standard v1.1: 21-Jurisdiction Corporate Registry Normalization Corpus (CC0)","url":"https://pablocirre.github.io/en/paginas/opendata/central-enterprises/","datePublished":"2026-11-17","dateModified":"2026-11-17","author":{"@type":"Person","name":"Pablo Cirre","url":"https://pablocirre.github.io/"},"about":{"@type":"Organization","name":"Central.Enterprises","url":"https://central.enterprises/"}},{"@context":"https://schema.org","@type":"Dataset","name":"Central.Enterprises Open Company Data Standard v1.1 (21 Jurisdictions)","description":"Normalized CC0 1.0 Public Domain corporate entity registries across 21 countries (8,112,307 entities, 5,793,321 web domains, 5,658,008 corporate emails).","url":"https://central.enterprises/data/","license":"https://creativecommons.org/publicdomain/zero/1.0/","isAccessibleForFree":true}]</script>
+  <style>
+    :root { --bg: #0b0f17; --card: #121826; --text: #e2e8f0; --muted: #94a3b8; --accent: #38bdf8; --border: #1e293b; }
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 2.5rem 1.25rem; line-height: 1.65; }
+    main { max-width: 1080px; margin: 0 auto; }
+    h1, h2, h3 { color: #f8fafc; line-height: 1.25; }
+    a { color: var(--accent); }
+    .tldr { background: var(--card); border: 1px solid var(--border); border-left: 4px solid var(--accent); padding: 1.15rem 1.35rem; border-radius: 6px; margin: 1.25rem 0 2rem; }
+    .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1rem; margin: 1.5rem 0 2.25rem; }
+    .kpi { background: var(--card); border: 1px solid var(--border); padding: 1rem 1.25rem; border-radius: 6px; }
+    .kpi strong { display: block; font-size: 1.55rem; color: var(--accent); }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 6px; background: var(--card); margin: 1.25rem 0 2rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+    th, td { padding: 0.72rem 0.9rem; border-bottom: 1px solid var(--border); text-align: left; }
+    th { background: #0f172a; color: #f8fafc; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="https://pablocirre.github.io/">Pablo Cirre Open Data Hub</a> / <strong>Central.Enterprises Registry Benchmark</strong></p>
+    <h1>Open Company Data Standard v1.1: Global Cross-Border Corporate Entity Normalization (CC0 1.0)</h1>
+
+    <div class="tldr">
+      <strong>TL;DR:</strong> Maintained by the <a href="https://central.enterprises/">Central.Enterprises global business entity registry</a>, the <strong>Open Company Data Standard v1.1</strong> harmonizes 21 national commercial registers into a deterministic 37-column schema (`CSV`, `XLSX`, `ZIP`). The live CC0 1.0 Public Domain corpus covers <strong>8,112,307 verified legal entities</strong>, <strong>5,793,321 corporate web domains</strong>, and <strong>5,658,008 verified B2B email endpoints</strong> accessible via the <a href="https://central.enterprises/data/">Central.Enterprises 21-country open data catalog</a>.
+    </div>
+
+    <div class="kpis">
+      <div class="kpi"><strong>21</strong><span>Sovereign Jurisdictions</span></div>
+      <div class="kpi"><strong>8,112,307</strong><span>Verified Legal Entities</span></div>
+      <div class="kpi"><strong>5,793,321</strong><span>Corporate Web Domains</span></div>
+      <div class="kpi"><strong>5,658,008</strong><span>Verified B2B Emails</span></div>
+    </div>
+
+    <h2>1. Why Cross-Border Corporate Registries Require Schema Standardization</h2>
+    <p>
+      National corporate registers differ substantially across legal traditions and technical formats. Spain indexes legal entities through Registro Mercantil Central filings and CNAE-2009 activity trees; Switzerland publishes UID identifiers (`CHE-XXX.XXX.XXX`) and NOGA 2008 sectors via ZEFIX; the Netherlands coordinates KvK-nummer records under SBI 2008 taxonomy; France exposes national INSEE Sirene identifiers (`SIREN` and `SIRET`) classified by NAF/APE codes; Brazil maintains active corporate filings under Receita Federal `CNPJ`; Poland publishes KRS/REGON entities under PKD 2007; Indonesia tracks AHU/NIB filings under KBLI; and Malaysia records SSM corporate entities nationwide.
+    </p>
+    <p>
+      Without a shared protocol, data engineers, compliance analysts, and econometric researchers must write bespoke ingestion parsers, deduplication routines, and character-encoding normalizers for every jurisdiction. The <a href="https://central.enterprises/standard/">Open Company Data Standard v1.1 technical specification</a> solves this fragmentation by aligning all 21 markets to a single immutable tabular structure backed by SimHash entity deduplication, ISO 3166-1 alpha-2 country keys, normalized root domains, and transparent coverage metrics documented in the <a href="https://central.enterprises/docs/methodology.php">Central.Enterprises normalization methodology</a>.
+    </p>
+
+    <h2>2. Complete 21-Jurisdiction Live Coverage Table (`2026-11-17`)</h2>
+    <p>
+      Each national profile in the table below links directly to its registry specification, zero-registration 100-row CSV preview, and full CC0 1.0 ZIP archive:
+    </p>
+    <div class="table-wrap" tabindex="0" role="region" aria-label="21-Country Open Company Data Corpus">
+      <table>
+        <thead>
+          <tr>
+            <th>Jurisdiction &amp; Specification</th>
+            <th>ISO-3</th>
+            <th style="text-align:right">Verified Entities</th>
+            <th style="text-align:right">Web Domains</th>
+            <th style="text-align:right">Corporate Emails</th>
+            <th>Direct CC0 Access</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://central.enterprises/country/australia/">Australia Corporate Registry</a></td>
+            <td><code>AUS</code></td>
+            <td style="text-align:right">298,933</td>
+            <td style="text-align:right">230,033</td>
+            <td style="text-align:right">233,204</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=australia">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=australia&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/austria/">Austria Corporate Registry</a></td>
+            <td><code>AUT</code></td>
+            <td style="text-align:right">57,157</td>
+            <td style="text-align:right">46,693</td>
+            <td style="text-align:right">57,449</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=austria">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=austria&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/belgium/">Belgium Corporate Registry</a></td>
+            <td><code>BEL</code></td>
+            <td style="text-align:right">229,492</td>
+            <td style="text-align:right">165,514</td>
+            <td style="text-align:right">159,430</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=belgium">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=belgium&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/brazil/">Brazil Corporate Registry</a></td>
+            <td><code>BRA</code></td>
+            <td style="text-align:right">621,395</td>
+            <td style="text-align:right">404,977</td>
+            <td style="text-align:right">324,177</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=brazil">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=brazil&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/canada/">Canada Corporate Registry</a></td>
+            <td><code>CAN</code></td>
+            <td style="text-align:right">376,184</td>
+            <td style="text-align:right">276,693</td>
+            <td style="text-align:right">735,164</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=canada">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=canada&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/france/">France Corporate Registry</a></td>
+            <td><code>FRA</code></td>
+            <td style="text-align:right">580,729</td>
+            <td style="text-align:right">345,838</td>
+            <td style="text-align:right">331,822</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=france">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=france&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/germany/">Germany Corporate Registry</a></td>
+            <td><code>DEU</code></td>
+            <td style="text-align:right">1,060,411</td>
+            <td style="text-align:right">808,039</td>
+            <td style="text-align:right">908,844</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=germany">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=germany&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/indonesia/">Indonesia Corporate Registry</a></td>
+            <td><code>IDN</code></td>
+            <td style="text-align:right">110,196</td>
+            <td style="text-align:right">58,314</td>
+            <td style="text-align:right">47,345</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=indonesia">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=indonesia&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/ireland/">Ireland Corporate Registry</a></td>
+            <td><code>IRL</code></td>
+            <td style="text-align:right">41,148</td>
+            <td style="text-align:right">33,081</td>
+            <td style="text-align:right">31,653</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=ireland">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=ireland&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/italy/">Italy Corporate Registry</a></td>
+            <td><code>ITA</code></td>
+            <td style="text-align:right">490,351</td>
+            <td style="text-align:right">376,123</td>
+            <td style="text-align:right">358,442</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=italy">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=italy&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/lithuania/">Lithuania Corporate Registry</a></td>
+            <td><code>LTU</code></td>
+            <td style="text-align:right">33,213</td>
+            <td style="text-align:right">23,807</td>
+            <td style="text-align:right">27,003</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=lithuania">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=lithuania&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/malaysia/">Malaysia Corporate Registry</a></td>
+            <td><code>MYS</code></td>
+            <td style="text-align:right">52,504</td>
+            <td style="text-align:right">33,095</td>
+            <td style="text-align:right">31,623</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=malaysia">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=malaysia&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/netherlands/">Netherlands Corporate Registry</a></td>
+            <td><code>NLD</code></td>
+            <td style="text-align:right">258,884</td>
+            <td style="text-align:right">215,387</td>
+            <td style="text-align:right">161,021</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=netherlands">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=netherlands&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/norway/">Norway Corporate Registry</a></td>
+            <td><code>NOR</code></td>
+            <td style="text-align:right">39,266</td>
+            <td style="text-align:right">26,678</td>
+            <td style="text-align:right">44,847</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=norway">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=norway&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/poland/">Poland Corporate Registry</a></td>
+            <td><code>POL</code></td>
+            <td style="text-align:right">270,493</td>
+            <td style="text-align:right">194,666</td>
+            <td style="text-align:right">220,902</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=poland">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=poland&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/portugal/">Portugal Corporate Registry</a></td>
+            <td><code>PRT</code></td>
+            <td style="text-align:right">79,498</td>
+            <td style="text-align:right">56,771</td>
+            <td style="text-align:right">51,726</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=portugal">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=portugal&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/romania/">Romania Corporate Registry</a></td>
+            <td><code>ROU</code></td>
+            <td style="text-align:right">75,838</td>
+            <td style="text-align:right">57,464</td>
+            <td style="text-align:right">51,716</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=romania">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=romania&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/spain/">Spain Corporate Registry</a></td>
+            <td><code>ESP</code></td>
+            <td style="text-align:right">651,154</td>
+            <td style="text-align:right">483,795</td>
+            <td style="text-align:right">404,039</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=spain">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=spain&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/switzerland/">Switzerland Corporate Registry</a></td>
+            <td><code>CHE</code></td>
+            <td style="text-align:right">117,297</td>
+            <td style="text-align:right">90,541</td>
+            <td style="text-align:right">109,021</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=switzerland">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=switzerland&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/united-kingdom/">United Kingdom Corporate Registry</a></td>
+            <td><code>GBR</code></td>
+            <td style="text-align:right">1,121,392</td>
+            <td style="text-align:right">805,855</td>
+            <td style="text-align:right">561,743</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=united-kingdom">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=united-kingdom&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://central.enterprises/country/united-states/">United States Corporate Registry</a></td>
+            <td><code>USA</code></td>
+            <td style="text-align:right">1,546,772</td>
+            <td style="text-align:right">1,059,957</td>
+            <td style="text-align:right">806,837</td>
+            <td><a href="https://central.enterprises/data/download_sample.php?country=united-states">CSV Sample</a> · <a href="https://central.enterprises/data/download_dataset.php?country=united-states&amp;tier=opendata&amp;format=zip">CC0 ZIP</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>3. Newly Updated National Registry Benchmarks (Priority 2026 Releases)</h2>
+    <p>
+      As part of the v1.1 release cycle, dedicated coverage hubs and direct HTTP X-Accel-Redirect OpenData ZIP/CSV/Excel streams are live across high-demand European, Latin American, and Asia-Pacific jurisdictions:
+    </p>
+    <ul>
+      <li><strong>France:</strong> Explore the <a href="https://central.enterprises/country/france/">France INSEE SIRENE &amp; NAF business database</a> (`580,729` legal entities, `345,838` domains).</li>
+      <li><strong>Brazil:</strong> Access the <a href="https://central.enterprises/country/brazil/">Brazil Receita Federal CNPJ corporate dataset</a> (`621,395` active entities, `404,977` domains).</li>
+      <li><strong>Indonesia:</strong> Inspect the <a href="https://central.enterprises/country/indonesia/">Indonesia AHU / NIB KBLI company registry</a> (`110,196` entities, `58,314` domains).</li>
+      <li><strong>Malaysia:</strong> Download the <a href="https://central.enterprises/country/malaysia/">Malaysia SSM corporate entities dataset</a> (`52,504` entities, `33,095` domains).</li>
+      <li><strong>Switzerland:</strong> Review the <a href="https://central.enterprises/country/switzerland/">Switzerland ZEFIX UID business database and email list</a> (`117,297` entities, `109,021` emails).</li>
+      <li><strong>Netherlands:</strong> Query the <a href="https://central.enterprises/country/netherlands/">Netherlands KvK bedrijvendatabase and SBI directory</a> (`258,884` entities, `215,387` domains).</li>
+      <li><strong>Poland &amp; Spain:</strong> Compare the <a href="https://central.enterprises/country/poland/">Poland KRS/REGON B2B company directory</a> (`270,493` entities) alongside the <a href="https://central.enterprises/country/spain/">Spain Registro Mercantil company search directory</a> (`651,154` entities).</li>
+    </ul>
+
+    <h2>4. Open Source Distribution &amp; Reproducibility</h2>
+    <p>
+      The machine-readable schema (`JSON Schema Draft 2020-12`), Frictionless `datapackage.json`, citation metadata (`CITATION.cff`), and 10 sanitized 100-row country samples are versioned publicly in the <a href="https://github.com/PabloCirre/open-company-data-standard/releases/tag/v1.1.0">GitHub Open Company Data Standard v1.1.0 release repository</a> and mirrored on the <a href="https://pablocirre.github.io/open-company-data-standard/">Open Company Data Standard GitHub Pages portal</a>.
+    </p>
+  </main>
+</body>
+</html>
